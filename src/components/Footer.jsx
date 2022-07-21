@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+    <div className="max-w-[1240px] mx-auto pt-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
         <h1 className="text-red-600 text-4xl font-bold cursor-pointer">
           GLIMPSE
@@ -60,7 +60,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <h6>&copy; Maulana Akbar Yudistika</h6>
     </div>
   );
 };
